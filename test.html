@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- ../Required meta tags -->
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <!--../ Bootstrap CSS -->
+
+  <!-- flag icon -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css" rel="stylesheet" />
+  <!--../ flag icon -->
+
+  <!-- font  Poppins-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap" rel="stylesheet">
+  <!-- ../font  Poppins-->
+
+  <!-- font tajawal -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&family=Tajawal:wght@700&display=swap"
+    rel="stylesheet">
+  <!--../font tajawal -->
+
+  <!-- font awesome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- ../font awesome-->
+
+  <!-- --------css styles -------->
+  <!-- wow libaray css -->
+  <link rel="stylesheet" href="assets/css/animate.css">
+  <!-- owl.carousel libaray css -->
+  <link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
+  <link rel="stylesheet" href="assets/css/owl.theme.default.css" />
+
+  <!-- custom css -->
+  <link rel="stylesheet" href="assets/css/test.scss">
+  <!-- --------../css styles ------ -->
+
+  <title data-i18n="title"> </title>
+
+</head>
+
+<body>
+
+
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg  navbar-dark ">
+    <div class="container  px-4 py-2   ">
+
+      <a class="navbar-brand" href="index.html">
+
+        <img src="assets/images/logo-car.png" alt="">
+
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active " href="index.html" data-i18n="home">Home Padge</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link  " href="questions.html" data-i18n="about">about</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link " href="car-name.html" data-i18n="OURSERVICES"> Our Services</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link " href="adv-search.html" data-i18n="ourCars"> Our Cars</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link " href="#" data-i18n="contact">Contact us</a>
+          </li>
+        </ul>
+        <ul class=" d-flex flex-row align-items-md-baseline  justify-content-around">
+          <li class="px-3">
+
+            <div class="dropdown">
+              <button class="btn lang-select dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                <span data-i18n="selectLanguage">En</span> <i class="fa-solid fa-language"></i>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#" id="en"> <img src="assets/images/united-states.png" alt=""
+                      style="width: 20PX;"> En</a></li>
+                <li><a class="dropdown-item" href="#" id="ar"><img src="assets/images/saudi-arabia.png" alt=""
+                      style="width: 20PX;"> Ar</a></li>
+              </ul>
+            </div>
+
+          </li>
+
+
+          <li class="nav-item me-3 me-lg-0 dropdown">
+
+            <button class="btn whats-btn ">
+
+              <i class="fa-brands fa-whatsapp fa-xl "></i>
+
+              <span data-i18n="contact"> Contact Us </span>
+
+            </button>
+
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+  <!-- ../navbar -->
+  <!-- page breadcrumb -->
+  <section class="branch-breadcrumb shadow-sm">
+    <div class="container">
+      <nav aria-label="breadcrumb ">
+        <ol class="breadcrumb" id="breadcrumbList">
+          <li class="breadcrumb-item mx-2"><a href="#" data-i18n="breadCrumbHome" style="color: #323232;">Home</a></li>
+          <li class="breadcrumb-item active" aria-current="page" data-i18n="commonQuestions">Common Questions</li>
+        </ol>
+      </nav>
+
+    </div>
+    <div class="breadcrumb-overlay"></div>
+  </section>
+
+  <!-- ../land breadcrumb -->
+
+  <button type="button" class="btn btn-primary" >
+    Open modal
+  </button>
+<!-- The Modal -->
+
+
+  <div class="modal" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Modal title</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Modal body text goes here.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+
+            
+
+
+
+  <!-- Footer -->
+  <footer class="text-center text-white ">
+
+
+
+
+    <!-- Grid container -->
+    <div class="container">
+      <div class="footer-logo mb-4">
+        <img src="assets/images/logo-car.png" alt="">
+      </div>
+      <!-- footer navbar -->
+      <nav class="navbar navbar-expand-lg  navbar-dark footer-nav ">
+        <div class="container  px-4  ">
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active " href="#" data-i18n="home">Home Padge</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link  " href="#" data-i18n="about">about</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#" data-i18n="OURSERVICES"> Our Services</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link " href="#" data-i18n="ourCars"> Our Cars</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link " href="#" data-i18n="contact">Contact us</a>
+              </li>
+            </ul>
+
+
+          </div>
+        </div>
+      </nav>
+      <!-- ../ footer navbar -->
+
+      <!-- Section: Text -->
+      <section class="mb-4 mt-2 terms-ques">
+        <div class="d-flex justify-content-center ">
+          <div class="terms mx-2">
+            <a href="#" data-i18n="terms"> terms and conditions</a>
+          </div>
+          <div class=" terms ">
+            <a href="questions.html" data-i18n="questions">common questions</a>
+          </div>
+        </div>
+      </section>
+      <!-- Section: Text -->
+
+      <!-- Section: Social -->
+      <section class="text-center mb-5">
+        <a href="" class="text-white me-4">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-snapchat"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-telegram"></i>
+        </a>
+
+      </section>
+      <!-- Section: Social -->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center p-3 copyright" data-i18n="Copyright">
+      © 2020 Copyright:lavo
+
+    </div>
+    <!-- Copyright -->
+
+
+  </footer>
+  <!-- Footer -->
+
+
+
+
+  <!-- bootstrap js cdns -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <!-- jquery js cdns -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
+    integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!-- jsdelivr -->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <!-- ../ jsdelivr-->
+  <!-- owl.carousel js scripts -->
+  <script src="assets/js/owl.carousel.min.js"></script>
+  <script src="assets/js/wow.min.js"></script>
+
+  <!-- WOW init -->
+  <script>
+    new WOW().init();
+
+  </script>
+
+  <!--custom js  -->
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/trans.js"></script>
+
+</body>
+
+</html>

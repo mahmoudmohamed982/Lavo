@@ -5,11 +5,9 @@
 }
 
 :root {
-  --main-color: #bb3d30;
-  --bg-color:#2b4f66;
+  --main-color: #c82613;
   --white-color: white;
   --black:#000;
-  --headers-color: #2b4f66;
   --text-color: #4c4c4c;
   --light-bg: #eef7f6;
 }
@@ -49,6 +47,16 @@ i {
 }
 .active {
   color: var(--white-color) !important  ;
+}
+.btn-check:active+.btn-outline-danger, .btn-check:checked+.btn-outline-danger, .btn-outline-danger.active, .btn-outline-danger.dropdown-toggle.show, .btn-outline-danger:active {
+  color: #fff;
+  background-color: var(--main-color);
+  border-color: var(--main-color);
+}
+.btn-outline-danger:hover {
+  color: #fff;
+  background-color: var(--main-color);
+  border-color: var(--main-color);
 }
 .whats-btn {
   background-color: var(--white-color) !important;
@@ -431,21 +439,16 @@ bottom:70% ;
 }
 
 /* ads */
-.ads .container{
-  background-color: #ccc;
-  position: relative;
-  z-index: -1;
-  border-radius: 15px;
 
-}
 .ads-img{
   height: 50vh;
-  /* background-image: url(../images/Questions-cuate.png); */
+  background-image: url(../images/Questions-cuate.png);
   background-repeat: no-repeat;
   background-size: cover;
   z-index: 2;
   width: 100%;
   border-radius: 15px;
+  background-color: #f8f8f8;
 }
 
 /* --/ads */
@@ -549,7 +552,9 @@ color: var(--white-color);
 .slogan-content {
   top: 50% !important;
 }
-
+.ads-img{
+  background-size: 100%;
+}
 footer {
   margin-top: 15rem;
 

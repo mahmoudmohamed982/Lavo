@@ -1,0 +1,1724 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- ../Required meta tags -->
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <!--../ Bootstrap CSS -->
+
+  <!-- flag icon -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css" rel="stylesheet" />
+  <!--../ flag icon -->
+
+  <!-- font  Poppins-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap" rel="stylesheet">
+  <!-- ../font  Poppins-->
+
+  <!-- font tajawal -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&family=Tajawal:wght@700&display=swap"
+    rel="stylesheet">
+  <!--../font tajawal -->
+
+  <!-- font awesome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- ../font awesome-->
+
+  <!-- --------css styles -------->
+  <!-- wow libaray css -->
+  <link rel="stylesheet" href="assets/css/animate.css">
+  <!-- owl.carousel libaray css -->
+  <link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
+  <link rel="stylesheet" href="assets/css/owl.theme.default.css" />
+
+  <!-- custom css -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/car-name.css">
+  <!-- --------../css styles ------ -->
+
+  <title data-i18n="title"> </title>
+
+</head>
+
+<body>
+
+
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg  navbar-dark ">
+    <div class="container  px-4 py-2   ">
+
+      <a class="navbar-brand" href="index.html">
+
+        <img src="assets/images/logo-car.png" alt="">
+
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active " href="index.html" data-i18n="home">Home Padge</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link  " href="questions.html" data-i18n="about">about</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link " href="car-name.html" data-i18n="OURSERVICES"> Our Services</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link " href="adv-search.html" data-i18n="ourCars"> Our Cars</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link " href="#" data-i18n="contact">Contact us</a>
+          </li>
+        </ul>
+        <ul class=" d-flex flex-row align-items-md-baseline  justify-content-around">
+          <li class="px-3">
+
+            <div class="dropdown">
+              <button class="btn lang-select dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                <span data-i18n="selectLanguage">En</span> <i class="fa-solid fa-language"></i>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#" id="en"> <img src="assets/images/united-states.png" alt=""
+                      style="width: 20PX;"> En</a></li>
+                <li><a class="dropdown-item" href="#" id="ar"><img src="assets/images/saudi-arabia.png" alt=""
+                      style="width: 20PX;"> Ar</a></li>
+              </ul>
+            </div>
+
+          </li>
+
+
+          <li class="nav-item me-3 me-lg-0 dropdown">
+
+            <button class="btn whats-btn ">
+
+              <i class="fa-brands fa-whatsapp fa-xl "></i>
+
+              <span data-i18n="contact"> Contact Us </span>
+
+            </button>
+
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+  <!-- ../navbar -->
+  <!-- page breadcrumb -->
+  <section class="branch-breadcrumb shadow-sm">
+    <div class="container">
+      <nav aria-label="breadcrumb ">
+        <ol class="breadcrumb" id="breadcrumbList">
+          <li class="breadcrumb-item mx-2"><a href="#" data-i18n="breadCrumbHome" style="color: #323232;">Home</a></li>
+          <li class="breadcrumb-item active" aria-current="page" data-i18n="breadCrumbCarName">Car Name</li>
+        </ol>
+      </nav>
+
+    </div>
+    <div class="breadcrumb-overlay"></div>
+  </section>
+
+  <!-- ../land breadcrumb -->
+
+
+  <!--cars gallery -->
+  <section class="cars-imgs mt-4">
+    <div class="container">
+      <div class="row gy-3">
+        <div class="col-md-6">
+          <video controls height="100%" width="100%">
+            <source src="assets/images/footer-video.mp4" type="video/mp4">
+            <source src="assets/images/footer-video.ogg" type="video/ogg">
+            Your browser does not support HTML video.
+          </video>
+
+        </div>
+
+        <div class="col-md-6">
+          <div class="row ">
+            <div class="col-6">
+              <div class="preview-imgs">
+                <div class="img">
+                  <img src="assets/images/car-b.png" alt="" class="mb-3">
+                </div>
+                <div class="img">
+                  <img src="assets/images/car-y.png" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="preview-imgs more-preview">
+                <div class="img">
+                  <img src="assets/images/car-b.png" alt="" class="mb-3">
+                </div>
+                <div class="img position-relative all-cars-imgs">
+                  <img src="assets/images/car-y.png" alt="">
+                  <div class="all-cars-imgs-overlay">
+                    <span>view all images</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--../cars gallery -->
+
+  <!-- car detail -->
+  <section class="car-detail mt-5">
+    <div class="container">
+      <div class="row ">
+        <div class="col-md-8 col-12">
+          <div class="car-det-item shadow bg-body  ">
+            <h5 data-i18n="carName"> Car Name</h5>
+            <p data-i18n="specifications">specifications of car</p>
+
+            <div class="row">
+              <div class="col-md-3 col-6">
+                <div class="specifications shadow-sm p-md-2 mb-md-0 mb-3 ">
+                  <img src="assets/images/racing-icon.png" alt="" style="width: 20px;">
+                  <span data-i18n="subCarName">Car Name</span>
+                </div>
+              </div>
+              <div class="col-md-3 col-6">
+                <div class="specifications shadow-sm p-md-2  mb-md-0 mb-3">
+                  <img src="assets/images/racing-icon.png" alt="" style="width: 20px;">
+                  <span data-i18n="subCarName">Car Name</span>
+                </div>
+              </div>
+              <div class="col-md-3 col-6">
+                <div class="specifications shadow-sm p-md-2 ">
+                  <img src="assets/images/racing-icon.png" alt="" style="width: 20px;">
+                  <span data-i18n="subCarName">Car Name</span>
+                </div>
+              </div>
+              <div class="col-md-3 col-6">
+                <div class="specifications shadow-sm p-md-2 ">
+                  <img src="assets/images/racing-icon.png" alt="" style="width: 20px;">
+                  <span data-i18n="subCarName">Car Name</span>
+                </div>
+              </div>
+
+
+            </div>
+
+            <p class=" mt-3" data-i18n="features">features</p>
+            <div class="row mb-3">
+              <div class="col-md-3 col-6">
+                <div class="specifications shadow-sm p-md-2 mb-md-0 mb-3 ">
+                  <img src="assets/images/racing-icon.png" alt="" style="width: 20px;">
+                  <span data-i18n="subCarName">Car Name</span>
+                </div>
+              </div>
+              <div class="col-md-3 col-6">
+                <div class="specifications shadow-sm p-md-2  mb-md-0 mb-3">
+                  <img src="assets/images/racing-icon.png" alt="" style="width: 20px;">
+                  <span data-i18n="subCarName">Car Name</span>
+                </div>
+              </div>
+              <div class="col-md-3 col-6">
+                <div class="specifications shadow-sm p-md-2 ">
+                  <img src="assets/images/racing-icon.png" alt="" style="width: 20px;">
+                  <span data-i18n="subCarName">Car Name</span>
+                </div>
+              </div>
+              <div class="col-md-3 col-6">
+                <div class="specifications shadow-sm p-md-2 ">
+                  <img src="assets/images/racing-icon.png" alt="" style="width: 20px;">
+                  <span data-i18n="subCarName">Car Name</span>
+                </div>
+              </div>
+
+
+            </div>
+            <div class="row">
+              <div class="col-md-3 col-6">
+                <div class="specifications shadow-sm p-md-2 mb-md-0 mb-3 ">
+                  <img src="assets/images/racing-icon.png" alt="" style="width: 20px;">
+                  <span data-i18n="subCarName">Car Name</span>
+                </div>
+              </div>
+              <div class="col-md-3 col-6">
+                <div class="specifications shadow-sm p-md-2  mb-md-0 mb-3">
+                  <img src="assets/images/racing-icon.png" alt="" style="width: 20px;">
+                  <span data-i18n="subCarName">Car Name</span>
+                </div>
+              </div>
+              <div class="col-md-3 col-6">
+                <div class="specifications shadow-sm p-md-2 ">
+                  <img src="assets/images/racing-icon.png" alt="" style="width: 20px;">
+                  <span data-i18n="subCarName">Car Name</span>
+                </div>
+              </div>
+              <div class="col-md-3 col-6">
+                <div class="specifications shadow-sm p-md-2 ">
+                  <img src="assets/images/racing-icon.png" alt="" style="width: 20px;">
+                  <span data-i18n="subCarName">Car Name</span>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md-4 col-12  mt-md-0 mt-5">
+          <div class="rent-detail">
+            <h5 class="rent-title" data-i18n="bookingDetails">booking details</h5>
+            <div class="rent-item shadow my-1">
+              <div class="rent-item-head d-flex justify-content-between p-1">
+                <p class="item-rent-type" data-i18n="dailyRent">daily rent</p>
+                <p class="item-rent-price" data-i18n="distanceCount">500 kilo</p>
+              </div>
+              <div class="rent-item-btn pb-2">
+                <button class="btn" data-i18n="bookingBtn" data-bs-toggle="modal" data-bs-target="#myModal">book with
+                  250 AED</button>
+
+              </div>
+            </div>
+
+            <div class="rent-item shadow my-1">
+              <div class="rent-item-head d-flex justify-content-between p-1">
+                <p class="item-rent-type" data-i18n="dailyRent">daily rent</p>
+                <p class="item-rent-price" data-i18n="distanceCount">500 kilo</p>
+              </div>
+              <div class="rent-item-btn pb-2">
+                <button class="btn" data-i18n="bookingBtn" data-bs-toggle="modal" data-bs-target="#myModal2">book with
+                  250 AED</button>
+
+              </div>
+            </div>
+
+            <div class="rent-item shadow my-1">
+              <div class="rent-item-head d-flex justify-content-between p-1">
+                <p class="item-rent-type" data-i18n="dailyRent">daily rent</p>
+                <p class="item-rent-price" data-i18n="distanceCount">500 kilo</p>
+              </div>
+              <div class="rent-item-btn pb-2">
+                <button class="btn" data-i18n="bookingBtn" data-bs-toggle="modal" data-bs-target="#myModal3">book with
+                  250 AED</button>
+
+              </div>
+            </div>
+
+
+            <div class="rent-item mt-3">
+              <div class="rent-item-body">
+                <h5 class="card-title" data-i18n="requirements">requirements </h5>
+
+                <div class="d-flex  justify-content-between ">
+                  <div class="card-desc">
+                    <img src="assets/images/q-icon.png" alt="" style="width: 20px;">
+                    <span data-i18n="payedInshurance">there is a money shold be payed to insurance</span>
+                  </div>
+                  <div class="cart-link">
+                    <a href="#" data-i18n="click">Click here</a>
+                  </div>
+                </div>
+
+                <div class="d-flex justify-content-between">
+                  <div class="card-desc">
+                    <img src="assets/images/q-icon.png" alt="" style="width: 20px;">
+                    <span data-i18n="mileageFess">Additional mileage fees</span>
+                  </div>
+                  <div class="cart-link">
+                    <a href="#" data-i18n="click">Card link</a>
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    </div>
+  </section>
+  <!--../ car detail -->
+
+
+  <!-- Our Cars-->
+  <div class="our-cars text-center my-5 pb-3 general-height ">
+    <div class="d-flex align-items-baseline justify-content-center">
+      <h1 data-i18n="carsTItle"> The services that we <span>provide</span> at Lavo Rent a Car </h1>
+
+    </div>
+
+
+  </div>
+
+  <section class="our-cars">
+    <div class="container">
+      <div class="row row-cols-lg-3 row-cols-md-2 row-cols-1 ">
+
+        <div class="col  mb-4 ">
+
+          <div class="card">
+            <div class="car-img ">
+              <img src="assets/images/car-w.png" class="card-img-top" alt="">
+              <div class="brand-icons  mh-25 shadow bg-body p-2  d-flex justify-content-between">
+                <div class="brand-name d-flex align-items-center">
+                  <i class="fa-solid fa-gauge"></i>
+                  <span class="brand-name-text mx-2" data-i18n="carBrand">lamborgini </span>
+                  <div class="brand-icom-img"><img src="assets/images/ferrari-logo-750x1100.png" alt=""
+                      style="width: 20px;"> </div>
+                </div>
+
+                <div class="features-icons d-flex ">
+
+                  <div class="features-icons-container">
+                    <img src="assets/images/flames.png" alt="">
+                  </div>
+
+                  <div class="features-icons-container mx-1">
+                    <img src="assets/images/sport-car.png" alt="">
+                  </div>
+
+                  <div class="features-icons-container mx-1">
+                    <img src="assets/images/flames.png" alt="">
+                  </div>
+
+                  <div class="features-icons-container">
+                    <img src="assets/images/sport-car.png" alt="">
+                  </div>
+                </div>
+              </div>
+
+              <div class="car-name">
+                <h5 class="car-nme-text" data-i18n="carName">car name</h5>
+              </div>
+
+              <div class="car-name-icon">
+                <img src="assets/images/flames.png" alt="" style="width: 20px;">
+              </div>
+
+            </div>
+
+            <div class="card-body">
+              <h5 class="card-title" data-i18n="carDescTitle">Car Describtion</h5>
+              <p class="card-text" data-i18n="carDesc">Some quick example text to build on the card title and make up
+                the bulk of the card's content.</p>
+              <div class="row row-cols-2">
+                <div class="col-7 ">
+
+
+                  <div class="booking-prices ">
+                    <table class="w-100">
+
+                      <tr>
+                        <td data-i18n="dailyRent">Daily Rent</td>
+                        <td class="color-main">500</td>
+                        <td></td>
+                        <td data-i18n="coin">AED</td>
+                      </tr>
+                      <tr>
+                        <td data-i18n="weeklyRent">Weekly Rent</td>
+                        <td class="color-main">700</td>
+                        <td class="price-value">600</td>
+                        <td data-i18n="coin">AED</td>
+                      </tr>
+                      <tr>
+                        <td data-i18n="monthRent">Month Rent</td>
+                        <td class="color-main">900 </td>
+                        <td class="price-value">1100</td>
+                        <td data-i18n="coin">AED</td>
+                      </tr>
+                    </table>
+
+                  </div>
+                </div>
+                <div class="col-5 my-auto">
+                  <a href="car-name.html" class="search-btn dicov-btn">
+                    <button type="button" class="btn "><span data-i18n="discoverBtn">Discover</span> <i
+                        class="fa-solid fa-arrow-left"></i></button>
+
+                  </a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <div class="col  mb-4 ">
+
+          <div class="card">
+            <div class="car-img ">
+              <img src="assets/images/car-w.png" class="card-img-top" alt="">
+              <div class="brand-icons  mh-25 shadow bg-body p-2  d-flex justify-content-between">
+                <div class="brand-name d-flex align-items-center">
+                  <i class="fa-solid fa-gauge"></i>
+                  <span class="brand-name-text mx-2" data-i18n="carBrand">lamborgini </span>
+                  <div class="brand-icom-img"><img src="assets/images/ferrari-logo-750x1100.png" alt=""
+                      style="width: 20px;"> </div>
+                </div>
+
+                <div class="features-icons d-flex ">
+
+                  <div class="features-icons-container">
+                    <img src="assets/images/flames.png" alt="">
+                  </div>
+
+                  <div class="features-icons-container mx-1">
+                    <img src="assets/images/sport-car.png" alt="">
+                  </div>
+
+                  <div class="features-icons-container mx-1">
+                    <img src="assets/images/flames.png" alt="">
+                  </div>
+
+                  <div class="features-icons-container">
+                    <img src="assets/images/sport-car.png" alt="">
+                  </div>
+                </div>
+              </div>
+
+              <div class="car-name">
+                <h5 class="car-nme-text" data-i18n="carName">car name</h5>
+              </div>
+
+              <div class="car-name-icon">
+                <img src="assets/images/flames.png" alt="" style="width: 20px;">
+              </div>
+
+            </div>
+
+            <div class="card-body">
+              <h5 class="card-title" data-i18n="carDescTitle">Car Describtion</h5>
+              <p class="card-text" data-i18n="carDesc">Some quick example text to build on the card title and make up
+                the bulk of the card's content.</p>
+              <div class="row row-cols-2">
+                <div class="col-7 ">
+
+
+                  <div class="booking-prices ">
+                    <table class="w-100">
+
+                      <tr>
+                        <td data-i18n="dailyRent">Daily Rent</td>
+                        <td class="color-main">500</td>
+                        <td></td>
+                        <td data-i18n="coin">AED</td>
+                      </tr>
+                      <tr>
+                        <td data-i18n="weeklyRent">Weekly Rent</td>
+                        <td class="color-main">700</td>
+                        <td class="price-value">600</td>
+                        <td data-i18n="coin">AED</td>
+                      </tr>
+                      <tr>
+                        <td data-i18n="monthRent">Month Rent</td>
+                        <td class="color-main">900 </td>
+                        <td class="price-value">1100</td>
+                        <td data-i18n="coin">AED</td>
+                      </tr>
+                    </table>
+
+                  </div>
+                </div>
+                <div class="col-5 my-auto">
+                  <a href="car-name.html" class="search-btn dicov-btn">
+                    <button type="button" class="btn "><span data-i18n="discoverBtn">Discover</span> <i
+                        class="fa-solid fa-arrow-left"></i></button>
+
+                  </a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <div class="col  mb-4 ">
+
+          <div class="card">
+            <div class="car-img ">
+              <img src="assets/images/car-w.png" class="card-img-top" alt="">
+              <div class="brand-icons  mh-25 shadow bg-body p-2  d-flex justify-content-between">
+                <div class="brand-name d-flex align-items-center">
+                  <i class="fa-solid fa-gauge"></i>
+                  <span class="brand-name-text mx-2" data-i18n="carBrand">lamborgini </span>
+                  <div class="brand-icom-img"><img src="assets/images/ferrari-logo-750x1100.png" alt=""
+                      style="width: 20px;"> </div>
+                </div>
+
+                <div class="features-icons d-flex ">
+
+                  <div class="features-icons-container">
+                    <img src="assets/images/flames.png" alt="">
+                  </div>
+
+                  <div class="features-icons-container mx-1">
+                    <img src="assets/images/sport-car.png" alt="">
+                  </div>
+
+                  <div class="features-icons-container mx-1">
+                    <img src="assets/images/flames.png" alt="">
+                  </div>
+
+                  <div class="features-icons-container">
+                    <img src="assets/images/sport-car.png" alt="">
+                  </div>
+                </div>
+              </div>
+
+              <div class="car-name">
+                <h5 class="car-nme-text" data-i18n="carName">car name</h5>
+              </div>
+
+              <div class="car-name-icon">
+                <img src="assets/images/flames.png" alt="" style="width: 20px;">
+              </div>
+
+            </div>
+
+            <div class="card-body">
+              <h5 class="card-title" data-i18n="carDescTitle">Car Describtion</h5>
+              <p class="card-text" data-i18n="carDesc">Some quick example text to build on the card title and make up
+                the bulk of the card's content.</p>
+              <div class="row row-cols-2">
+                <div class="col-7 ">
+
+
+                  <div class="booking-prices ">
+                    <table class="w-100">
+
+                      <tr>
+                        <td data-i18n="dailyRent">Daily Rent</td>
+                        <td class="color-main">500</td>
+                        <td></td>
+                        <td data-i18n="coin">AED</td>
+                      </tr>
+                      <tr>
+                        <td data-i18n="weeklyRent">Weekly Rent</td>
+                        <td class="color-main">700</td>
+                        <td class="price-value">600</td>
+                        <td data-i18n="coin">AED</td>
+                      </tr>
+                      <tr>
+                        <td data-i18n="monthRent">Month Rent</td>
+                        <td class="color-main">900 </td>
+                        <td class="price-value">1100</td>
+                        <td data-i18n="coin">AED</td>
+                      </tr>
+                    </table>
+
+                  </div>
+                </div>
+                <div class="col-5 my-auto">
+                  <a href="car-name.html" class="search-btn dicov-btn">
+                    <button type="button" class="btn "><span data-i18n="discoverBtn">Discover</span> <i
+                        class="fa-solid fa-arrow-left"></i></button>
+
+                  </a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <div class="col  mb-4 ">
+
+          <div class="card">
+            <div class="car-img ">
+              <img src="assets/images/car-w.png" class="card-img-top" alt="">
+              <div class="brand-icons  mh-25 shadow bg-body p-2  d-flex justify-content-between">
+                <div class="brand-name d-flex align-items-center">
+                  <i class="fa-solid fa-gauge"></i>
+                  <span class="brand-name-text mx-2" data-i18n="carBrand">lamborgini </span>
+                  <div class="brand-icom-img"><img src="assets/images/ferrari-logo-750x1100.png" alt=""
+                      style="width: 20px;"> </div>
+                </div>
+
+                <div class="features-icons d-flex ">
+
+                  <div class="features-icons-container">
+                    <img src="assets/images/flames.png" alt="">
+                  </div>
+
+                  <div class="features-icons-container mx-1">
+                    <img src="assets/images/sport-car.png" alt="">
+                  </div>
+
+                  <div class="features-icons-container mx-1">
+                    <img src="assets/images/flames.png" alt="">
+                  </div>
+
+                  <div class="features-icons-container">
+                    <img src="assets/images/sport-car.png" alt="">
+                  </div>
+                </div>
+              </div>
+
+              <div class="car-name">
+                <h5 class="car-nme-text" data-i18n="carName">car name</h5>
+              </div>
+
+              <div class="car-name-icon">
+                <img src="assets/images/flames.png" alt="" style="width: 20px;">
+              </div>
+
+            </div>
+
+            <div class="card-body">
+              <h5 class="card-title" data-i18n="carDescTitle">Car Describtion</h5>
+              <p class="card-text" data-i18n="carDesc">Some quick example text to build on the card title and make up
+                the bulk of the card's content.</p>
+              <div class="row row-cols-2">
+                <div class="col-7 ">
+
+
+                  <div class="booking-prices ">
+                    <table class="w-100">
+
+                      <tr>
+                        <td data-i18n="dailyRent">Daily Rent</td>
+                        <td class="color-main">500</td>
+                        <td></td>
+                        <td data-i18n="coin">AED</td>
+                      </tr>
+                      <tr>
+                        <td data-i18n="weeklyRent">Weekly Rent</td>
+                        <td class="color-main">700</td>
+                        <td class="price-value">600</td>
+                        <td data-i18n="coin">AED</td>
+                      </tr>
+                      <tr>
+                        <td data-i18n="monthRent">Month Rent</td>
+                        <td class="color-main">900 </td>
+                        <td class="price-value">1100</td>
+                        <td data-i18n="coin">AED</td>
+                      </tr>
+                    </table>
+
+                  </div>
+                </div>
+                <div class="col-5 my-auto">
+                  <a href="car-name.html" class="search-btn dicov-btn">
+                    <button type="button" class="btn "><span data-i18n="discoverBtn">Discover</span> <i
+                        class="fa-solid fa-arrow-left"></i></button>
+
+                  </a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <div class="col  mb-4 ">
+
+          <div class="card">
+            <div class="car-img ">
+              <img src="assets/images/car-w.png" class="card-img-top" alt="">
+              <div class="brand-icons  mh-25 shadow bg-body p-2  d-flex justify-content-between">
+                <div class="brand-name d-flex align-items-center">
+                  <i class="fa-solid fa-gauge"></i>
+                  <span class="brand-name-text mx-2" data-i18n="carBrand">lamborgini </span>
+                  <div class="brand-icom-img"><img src="assets/images/ferrari-logo-750x1100.png" alt=""
+                      style="width: 20px;"> </div>
+                </div>
+
+                <div class="features-icons d-flex ">
+
+                  <div class="features-icons-container">
+                    <img src="assets/images/flames.png" alt="">
+                  </div>
+
+                  <div class="features-icons-container mx-1">
+                    <img src="assets/images/sport-car.png" alt="">
+                  </div>
+
+                  <div class="features-icons-container mx-1">
+                    <img src="assets/images/flames.png" alt="">
+                  </div>
+
+                  <div class="features-icons-container">
+                    <img src="assets/images/sport-car.png" alt="">
+                  </div>
+                </div>
+              </div>
+
+              <div class="car-name">
+                <h5 class="car-nme-text" data-i18n="carName">car name</h5>
+              </div>
+
+              <div class="car-name-icon">
+                <img src="assets/images/flames.png" alt="" style="width: 20px;">
+              </div>
+
+            </div>
+
+            <div class="card-body">
+              <h5 class="card-title" data-i18n="carDescTitle">Car Describtion</h5>
+              <p class="card-text" data-i18n="carDesc">Some quick example text to build on the card title and make up
+                the bulk of the card's content.</p>
+              <div class="row row-cols-2">
+                <div class="col-7 ">
+
+
+                  <div class="booking-prices ">
+                    <table class="w-100">
+
+                      <tr>
+                        <td data-i18n="dailyRent">Daily Rent</td>
+                        <td class="color-main">500</td>
+                        <td></td>
+                        <td data-i18n="coin">AED</td>
+                      </tr>
+                      <tr>
+                        <td data-i18n="weeklyRent">Weekly Rent</td>
+                        <td class="color-main">700</td>
+                        <td class="price-value">600</td>
+                        <td data-i18n="coin">AED</td>
+                      </tr>
+                      <tr>
+                        <td data-i18n="monthRent">Month Rent</td>
+                        <td class="color-main">900 </td>
+                        <td class="price-value">1100</td>
+                        <td data-i18n="coin">AED</td>
+                      </tr>
+                    </table>
+
+                  </div>
+                </div>
+                <div class="col-5 my-auto">
+                  <a href="car-name.html" class="search-btn dicov-btn">
+                    <button type="button" class="btn "><span data-i18n="discoverBtn">Discover</span> <i
+                        class="fa-solid fa-arrow-left"></i></button>
+
+                  </a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <div class="colmb-4 ">
+
+          <div class="card">
+            <div class="car-img ">
+              <img src="assets/images/car-w.png" class="card-img-top" alt="">
+              <div class="brand-icons  mh-25 shadow bg-body p-2  d-flex justify-content-between">
+                <div class="brand-name d-flex align-items-center">
+                  <i class="fa-solid fa-gauge"></i>
+                  <span class="brand-name-text mx-2" data-i18n="carBrand">lamborgini </span>
+                  <div class="brand-icom-img"><img src="assets/images/ferrari-logo-750x1100.png" alt=""
+                      style="width: 20px;"> </div>
+                </div>
+
+                <div class="features-icons d-flex ">
+
+                  <div class="features-icons-container">
+                    <img src="assets/images/flames.png" alt="">
+                  </div>
+
+                  <div class="features-icons-container mx-1">
+                    <img src="assets/images/sport-car.png" alt="">
+                  </div>
+
+                  <div class="features-icons-container mx-1">
+                    <img src="assets/images/flames.png" alt="">
+                  </div>
+
+                  <div class="features-icons-container">
+                    <img src="assets/images/sport-car.png" alt="">
+                  </div>
+                </div>
+              </div>
+
+              <div class="car-name">
+                <h5 class="car-nme-text" data-i18n="carName">car name</h5>
+              </div>
+
+              <div class="car-name-icon">
+                <img src="assets/images/flames.png" alt="" style="width: 20px;">
+              </div>
+
+            </div>
+
+            <div class="card-body">
+              <h5 class="card-title" data-i18n="carDescTitle">Car Describtion</h5>
+              <p class="card-text" data-i18n="carDesc">Some quick example text to build on the card title and make up
+                the bulk of the card's content.</p>
+              <div class="row row-cols-2">
+                <div class="col-7 ">
+
+
+                  <div class="booking-prices ">
+                    <table class="w-100">
+
+                      <tr>
+                        <td data-i18n="dailyRent">Daily Rent</td>
+                        <td class="color-main">500</td>
+                        <td></td>
+                        <td data-i18n="coin">AED</td>
+                      </tr>
+                      <tr>
+                        <td data-i18n="weeklyRent">Weekly Rent</td>
+                        <td class="color-main">700</td>
+                        <td class="price-value">600</td>
+                        <td data-i18n="coin">AED</td>
+                      </tr>
+                      <tr>
+                        <td data-i18n="monthRent">Month Rent</td>
+                        <td class="color-main">900 </td>
+                        <td class="price-value">1100</td>
+                        <td data-i18n="coin">AED</td>
+                      </tr>
+                    </table>
+
+                  </div>
+                </div>
+                <div class="col-5 my-auto">
+                  <a href="car-name.html" class="search-btn dicov-btn">
+                    <button type="button" class="btn "><span data-i18n="discoverBtn">Discover</span> <i
+                        class="fa-solid fa-arrow-left"></i></button>
+
+                  </a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+        <div class="col text-center mx-auto mt-4">
+          <button class="btn more-btn" data-i18n="moreBtn">more</button>
+        </div>
+
+      </div>
+    </div>
+    </div>
+  </section>
+  <!-- ../Our Cars -->
+
+  <!--ads Background image -->
+  <div class="ads mt-5 position-relative">
+    <div class="container">
+      <div class="ads-img" role="img" aria-label="adorable puppy playing on the grass">
+      </div>
+    </div>
+  </div>
+
+  <!-- ads Background image -->
+
+  <!-- rent requirment -->
+  <div class="rent-head text-center my-5 pb-3 general-height ">
+    <div class="d-flex align-items-baseline justify-content-center">
+      <h1 data-i18n="rentTitle">Conditions and requirements for <span>renting</span> a car in the United Arab Emirates
+      </h1>
+    </div>
+  </div>
+
+  <section class="rent-req">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 mb-lg-0 mb-5">
+          <div class="shadow-sm citizen text-center bg-gray">
+            <div class="citizen-img">
+              <img src="assets/images/icon-earth.png" alt="" class="man-img">
+            </div>
+            <div class="citizen-text my-3">
+              <h5 data-i18n="citizenReq">if you are citizen or resident</h5>
+            </div>
+
+            <div class="citizen-req ">
+              <div class="req-detail ">
+                <img src="assets/images/icon-earth.png" alt="" class="man-img-sm">
+                <span data-i18n="drivingLicense">UAE driving license</span>
+              </div>
+              <div class="req-detail ">
+                <img src="assets/images/icon-earth.png" alt="" class="man-img-sm">
+                <span data-i18n="drivingLicense">UAE driving license</span>
+              </div>
+              <div class="req-detail ">
+                <img src="assets/images/icon-earth.png" alt="" class="man-img-sm">
+                <span data-i18n="drivingLicense">UAE driving license</span>
+              </div>
+              <div class="req-detail ">
+                <img src="assets/images/icon-earth.png" alt="" class="man-img-sm">
+                <span data-i18n="drivingLicense">UAE driving license</span>
+              </div>
+              <div class="req-detail ">
+                <img src="assets/images/icon-earth.png" alt="" class="man-img-sm">
+                <span data-i18n="drivingLicense">UAE driving license</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="shadow-sm resident text-center bg-gray  ">
+            <div class="citizen-img">
+              <img src="assets/images/icon-earth.png" alt="" class="man-img">
+            </div>
+            <div class="citizen-text my-3">
+              <h5 data-i18n="resident">if you are citizen or resident</h5>
+            </div>
+
+            <div class="citizen-req ">
+              <div class="req-detail ">
+                <img src="assets/images/icon-earth.png" alt="" class="man-img-sm">
+
+                <span data-i18n="drivingLicense">UAE driving license</span>
+              </div>
+              <div class="req-detail ">
+                <img src="assets/images/icon-earth.png" alt="" class="man-img-sm">
+                <span data-i18n="drivingLicense">UAE driving license</span>
+              </div>
+              <div class="req-detail ">
+                <img src="assets/images/icon-earth.png" alt="" class="man-img-sm">
+                <span data-i18n="drivingLicense">UAE driving license</span>
+              </div>
+              <div class="req-detail ">
+                <img src="assets/images/icon-earth.png" alt="" class="man-img-sm">
+                <span data-i18n="drivingLicense">UAE driving license</span>
+              </div>
+              <div class="req-detail ">
+                <img src="assets/images/icon-earth.png" alt="" class="man-img-sm">
+                <span data-i18n="drivingLicense">UAE driving license</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- ../rent requirment -->
+
+  <!-- brands -->
+  <div class="brands-head text-center my-5 pb-3 general-height ">
+    <div class="d-flex align-items-baseline justify-content-center">
+      <h1 data-i18n="brandTitle">We own many different <span>types</span> and brands of cars </h1>
+    </div>
+  </div>
+
+  <section class="brands">
+    <div class="container">
+      <div class="row row-cols-lg-6 row-cols-md-3 row-cols-2 ">
+
+        <div class="col">
+          <div class="shadow-sm brand-item">
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="shadow-sm brand-item">
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="shadow-sm brand-item">
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="shadow-sm brand-item">
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="shadow-sm brand-item">
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="shadow-sm brand-item">
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!--../ brands -->
+
+  <!-- Footer -->
+  <footer class="text-center text-white ">
+
+
+
+
+    <!-- Grid container -->
+    <div class="container">
+      <div class="footer-logo mb-4">
+        <img src="assets/images/logo-car.png" alt="">
+      </div>
+      <!-- footer navbar -->
+      <nav class="navbar navbar-expand-lg  navbar-dark footer-nav ">
+        <div class="container  px-4  ">
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active " href="#" data-i18n="home">Home Padge</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link  " href="#" data-i18n="about">about</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#" data-i18n="OURSERVICES"> Our Services</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link " href="#" data-i18n="ourCars"> Our Cars</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link " href="#" data-i18n="contact">Contact us</a>
+              </li>
+            </ul>
+
+
+          </div>
+        </div>
+      </nav>
+      <!-- ../ footer navbar -->
+
+      <!-- Section: Text -->
+      <section class="mb-4 mt-2 terms-ques">
+        <div class="d-flex justify-content-center ">
+          <div class="terms mx-2">
+            <a href="#" data-i18n="terms"> terms and conditions</a>
+          </div>
+          <div class=" terms ">
+            <a href="questions.html" data-i18n="questions">common questions</a>
+          </div>
+        </div>
+      </section>
+      <!-- Section: Text -->
+
+      <!-- Section: Social -->
+      <section class="text-center mb-5">
+        <a href="" class="text-white me-4">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-snapchat"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-telegram"></i>
+        </a>
+
+      </section>
+      <!-- Section: Social -->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center p-3 copyright" data-i18n="Copyright">
+      © 2020 Copyright:lavo
+
+    </div>
+    <!-- Copyright -->
+
+
+  </footer>
+  <!-- Footer -->
+
+  <!-- The Terms Modal -->
+  <div class="modal " id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+
+        <div class="modal-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+
+        <div class="modal-body">
+
+          <div class="terms-priv shadow-lg p-md-5 p-3">
+            <div class="terms-priv-nav  row  ">
+              <div class="col-md-6">
+                <div class="terms-link active-terms-link text-center cursor" id="terms" onclick="toggleTerms()">
+                  <p data-i18n="tOfUse">terms of use</p>
+                </div>
+              </div>
+              <div class="col-md-6 ">
+                <div class="privacy-link   text-center text-center cursor" id="privacy" onclick="togglePrivacy()">
+                  <p data-i18n="privacyPolicy">privacy policy</p>
+                </div>
+              </div>
+
+
+            </div>
+            <div class="terms-priv-body mt-4" data-i18n="tOfUseBody" id="tOfUseBody">
+              This text is an example of text that can be replaced in the same space. This text was generated from the
+              Arabic text generator, where you can generate such text or many other texts in addition to increasing the
+              number of characters generated by the application.
+              If you need a larger number of paragraphs, the Arabic text generator allows you to increase the number of
+              paragraphs as you want, the text will not appear divided and does not contain linguistic errors, the
+              Arabic
+              text generator is useful for web designers in particular, as the customer often needs to see a real
+              picture
+              for website design.
+              Hence, the designer must put temporary texts on the design to show the client the full form. The role of
+              the
+              Arabic text generator is to save the designer the trouble of searching for alternative text that has
+              nothing
+              to do with the topic that the design is talking about, so it appears inappropriately.
+              This text can be installed on any design without a problem, it will not look like copied, unorganized,
+              unformatted, or even incomprehensible text. Because it is still an alternative and temporary text
+            </div>
+            <div class="priv-priv-body mt-4 d-none" data-i18n="privacyPolicyBody" id="privacyPolicyBody">
+              Hence, the designer must put temporary texts on the design to show the client the full form. The role of
+              the
+              Arabic text generator is to save the designer the trouble of searching for alternative text that has
+              nothing
+              to do with the topic that the design is talking about, so it appears inappropriately.
+              This text can be installed on any design without a problem, it will not look like copied, unorganized,
+              unformatted, or even incomprehensible text. Because it is still an alternative and temporary text
+            </div>
+          </div>
+        </div>
+
+        <div class="agree-btn text-center my-md-4 my-0">
+          <button class="btn" data-i18n="agreeBtn" onclick="toggleToNext()">
+            I agree to use
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!--../ Terms Modal -->
+
+  <!-- The online-booking  Modal -->
+  <div class="modal " id="myModal2">
+    <div class="modal-dialog">
+      <div class="modal-content">
+
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+
+        <!-- Modal body -->
+        <div class="modal-body">
+
+          <!-- insurance amount -->
+          <div class="online-booking   ">
+            <div class="container shadow bg-body p-md-5 p-3">
+              <div class="online-booking-money-icon text-center">
+                <img src="assets/images/money-icon.png" alt="">
+                <p class="my-3" data-i18n="bookingOnline">online booking</p>
+              </div>
+
+              <form action="" class="d-flex justify-content-around my-5">
+                
+                <input type="radio" class="btn-check" name="options-outlined" id="success-outlined" autocomplete="off" checked>
+                <label class="btn btn btn-outline-secondary" for="success-outlined">
+                  <img src="assets/images/man.png" alt="" >
+                  <p data-i18n="areYouCitizen">are you citizen or resident</p>
+
+                </label>
+
+                <input type="radio" class="btn-check" name="options-outlined" id="success2-outlined" autocomplete="off">
+                <label class="btn btn-outline-secondary" for="success2-outlined">
+                  <img src="assets/images/man.png" alt="">
+                  <p data-i18n="areYouTourist">are you Tourist</p>
+                </label>
+
+              </form>
+
+
+              <div class="online-booking-next">
+                <button class="btn" data-i18n="next">next</button>
+                <p class="text-center mt-3" data-i18n="contactBy">or contact us</p>
+              </div>
+
+              <div class="d-flex justify-content-around">
+                <button class="btn booking-whats w-md-25 w-50">
+                  <i class="fa-brands fa-whatsapp fa-xl "></i>
+                  <span data-i18n="contact"> Contact Us </span>
+                </button>
+                <button class="btn btn-outline-danger w-md-25 w-50">
+                  <i class="fa-solid fa-phone-volume fa-xl"></i>
+                  <span data-i18n="call">call +02 01282678299 </span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- ../insurance amount -->
+        </div>
+
+
+
+      </div>
+    </div>
+  </div>
+  <!--../ online-booking  Modal -->
+
+
+
+  <!--citizen-booking-->
+  <div class="modal " id="myModal3">
+    <div class="modal-dialog">
+      <div class="modal-content">
+
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+
+        <!-- Modal body -->
+        <div class="modal-body">
+          <div class="citizen-booking-form">
+            <div class="container shadow bg-body p-md-5 p-3">
+              <div class="online-booking-money-icon text-center">
+                <img src="assets/images/money-icon.png" alt="">
+                <p class="my-3" data-i18n="bookingAsCitizen">booking as a citizen</p>
+              </div>
+              <form>
+
+                <div class="mb-3">
+
+                  <div class="form-group custom-form-group">
+                    <div class="file-upload">
+                      <button class="btn-upload">
+                        <span class="text-file-name" data-i18n="visa">Entry visa copy</span>
+
+                        <span class="text-browse" data-i18n="browse">Browse..</span>
+                      </button>
+                      <i class="fa fa-camera i-pic-upload"></i>
+                      <i class="i-deselect"></i>
+                      <input type="file" class="form-control d-none" id="s-pic">
+                    </div>
+                  </div>
+
+                </div>
+                <div class="mb-3">
+                  <div class="form-group custom-form-group">
+                    <div class="file-upload">
+                      <button class="btn-upload">
+                        <span class="text-file-name" data-i18n="license">A copy of a driving license from the home
+                          country</span>
+
+                        <span class="text-browse" data-i18n="browse">Browse..</span>
+                      </button>
+                      <i class="fa fa-camera i-pic-upload"></i>
+                      <i class="i-deselect"></i>
+                      <input type="file" class="form-control d-none" id="s-pic">
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6 mb-md-0 mb-2">
+                    <input type="text" class="form-control" placeholder="name" aria-label="name" id="fullName">
+                  </div>
+                  <div class="col-md-6">
+                    <input type="tel" class="form-control" placeholder="Phone Number" aria-label="Phone Number"
+                      id="phoneNumber">
+                  </div>
+                </div>
+
+                <div class="online-booking-next mt-3">
+                  <button class="btn" data-i18n="next">next</button>
+                  <p class="text-center mt-3" data-i18n="contactBy">or contact us</p>
+                </div>
+
+              </form>
+
+
+
+              <div class="d-flex justify-content-around">
+                <button class="btn booking-whats w-md-25 w-50">
+                  <i class="fa-brands fa-whatsapp fa-xl "></i>
+                  <span data-i18n="contact"> Contact Us </span>
+                </button>
+                <button class="btn btn-outline-danger w-md-25 w-50">
+                  <i class="fa-solid fa-phone-volume fa-xl"></i>
+                  <span data-i18n="call">call +02 01282678299 </span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+
+
+      </div>
+    </div>
+  </div>
+
+  <!--../citizen-booking-->
+
+  <!-- booking as a tourist -->
+  <div class="modal " id="myModal4">
+    <div class="modal-dialog">
+      <div class="modal-content">
+
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+
+        <!-- Modal body -->
+        <div class="modal-body">
+          <div class="tourist-booking-form ">
+            <div class="container shadow bg-body p-md-5 p-3">
+              <div class="online-booking-money-icon text-center">
+                <img src="assets/images/money-icon.png" alt="">
+                <p class="my-3" data-i18n="bookingAsTourist">booking as a tourist </p>
+              </div>
+              <form>
+
+                <div class="row ">
+                  <div class="col-md-6">
+                    <div class="mb-3">
+
+
+                      <div class="form-group custom-form-group">
+                        <div class="file-upload">
+                          <button class="btn-upload">
+                            <span class="text-file-name" data-i18n="passport">Passport copy</span>
+
+                            <span class="text-browse" data-i18n="browse">Browse..</span>
+                          </button>
+                          <i class="fa fa-camera i-pic-upload"></i>
+                          <i class="i-deselect"></i>
+                          <input type="file" class="form-control d-none" id="s-pic">
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="mb-3">
+
+
+                      <div class="form-group custom-form-group">
+                        <div class="file-upload">
+                          <button class="btn-upload">
+                            <span class="text-file-name" data-i18n="visa">Entry visa copy</span>
+
+                            <span class="text-browse" data-i18n="browse">Browse..</span>
+                          </button>
+                          <i class="fa fa-camera i-pic-upload"></i>
+                          <i class="i-deselect"></i>
+                          <input type="file" class="form-control d-none" id="s-pic">
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="row ">
+                  <div class="col-md-6">
+                    <div class="mb-3">
+
+
+                      <div class="form-group custom-form-group">
+                        <div class="file-upload">
+                          <button class="btn-upload">
+                            <span class="text-file-name" data-i18n="license">A copy of a driving license from the home
+                              country</span>
+
+                            <span class="text-browse" data-i18n="browse">Browse..</span>
+                          </button>
+                          <i class="fa fa-camera i-pic-upload"></i>
+                          <i class="i-deselect"></i>
+                          <input type="file" class="form-control d-none" id="s-pic">
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="mb-3">
+
+
+                      <div class="form-group custom-form-group">
+                        <div class="file-upload">
+                          <button class="btn-upload d-flex">
+
+                            <div class="text-file-name" data-i18n="internationalDriving">A copy of the international
+                              driving
+                              license</div>
+                            <div class="text-browse" data-i18n="browse">Browse..</div>
+                          </button>
+                          <i class="fa fa-camera i-pic-upload"></i>
+                          <i class="i-deselect"></i>
+                          <input type="file" class="form-control d-none" id="s-pic">
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-md-6 mb-md-0 mb-2">
+                    <input type="text" class="form-control" placeholder="name" aria-label="name" id="fullName">
+                  </div>
+                  <div class="col-md-6">
+                    <input type="tel" class="form-control" placeholder="Phone Number" aria-label="Phone Number"
+                      id="phoneNumber">
+                  </div>
+                  <div class="col-12 d-flex align-items-center my-md-4 my-1">
+                    <div class="note-icon ">
+                      <i class="fa-solid fa-exclamation fa-2xl"></i>
+                    </div>
+                    <span class="color-main   mx-2" data-i18n="enterNumber">Please enter the phone number activated on
+                      WhatsApp</span>
+                  </div>
+                </div>
+
+                <div class="online-booking-next ">
+                  <button class="btn" data-i18n="next">next</button>
+                  <p class="text-center mt-3" data-i18n="contactBy">or contact us by</p>
+                </div>
+
+              </form>
+
+
+
+              <div class="d-flex justify-content-around">
+                <button class="btn booking-whats w-md-25 w-50 p-md-3 p-0">
+                  <i class="fa-brands fa-whatsapp fa-xl "></i>
+                  <span data-i18n="contact"> Contact Us </span>
+                </button>
+                <button class="btn btn-outline-danger w-md-25 w-50  p-md-3 p-1">
+                  <i class="fa-solid fa-phone-volume fa-xl"></i>
+                  <span data-i18n="call">call +02 01282678299 </span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+      </div>
+    </div>
+  </div>
+  <!--../ booking as a tourist -->
+
+  <!-- successfully Request -->
+  <div class="modal " id="myModal5">
+    <div class="modal-dialog">
+      <div class="modal-content">
+
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+
+        <!-- Modal body -->
+        <div class="modal-body">
+          <div class="citizen-booking-form ">
+            <div class="container shadow bg-body p-md-5 p-3">
+              <div class="online-booking-money-icon text-center">
+                <img src="assets/images/done-icon.png" alt="">
+                <p class="my-2" data-i18n="successfully">The reservation request has been sent successfully</p>
+              </div>
+              <form>
+                <p class="text-center" data-i18n="willContactYou">Our support and customer service team will contact you
+                  to
+                  confirm your reservation</p>
+                <div class="online-booking-next mt-3">
+                  <button class="btn" data-i18n="understand">understand</button>
+                  <p class="text-center mt-3" data-i18n="contactBy">or contact us by</p>
+                </div>
+
+              </form>
+
+
+
+              <div class="d-flex justify-content-around">
+                <button class="btn booking-whats w-md-25 w-50">
+                  <i class="fa-brands fa-whatsapp fa-xl "></i>
+                  <span data-i18n="contact"> Contact Us </span>
+                </button>
+                <button class="btn btn-outline-danger w-md-25 w-50">
+                  <i class="fa-solid fa-phone-volume fa-xl"></i>
+                  <span data-i18n="call">call +02 01282678299 </span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+
+
+      </div>
+    </div>
+  </div>
+  <!-- ../successfully Request -->
+
+  <!-- insurance amount -->
+  <div class="modal " id="myModal6">
+    <div class="modal-dialog">
+      <div class="modal-content">
+
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+
+        <!-- Modal body -->
+        <div class="modal-body">
+          <div class="container shadow bg-body p-md-5 p-3">
+            <div class="online-booking-money-icon text-center">
+              <img src="assets/images/money-icon.png" alt="">
+              <p class="my-2" data-i18n="insuranceAmount">The insurance amount is 2000</p>
+            </div>
+            <form>
+              <div class="d-flex align-items-baseline justify-content-center">
+                <div>
+                  <img src="assets/images/i-icom-serq.png" alt="" class="w-40">
+                </div>
+                <p data-i18n="insuranceText" class="color-main">The insurance fee will be refunded one month after
+                  receiving
+                  the car</p>
+              </div>
+              <div class="online-booking-next mt-3">
+                <button class="btn" data-i18n="understand">understand</button>
+              </div>
+
+            </form>
+
+
+
+
+          </div>
+
+        </div>
+
+
+
+      </div>
+    </div>
+  </div>
+  <!-- ../insurance amount -->
+
+  <!-- Additional mileage -->
+  <div class="modal " id="myModal7">
+    <div class="modal-dialog">
+      <div class="modal-content">
+
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+
+        <!-- Modal body -->
+        <div class="modal-body">
+
+          <div class="container shadow bg-body p-md-5 p-3">
+            <div class="online-booking-money-icon text-center">
+              <img src="assets/images/ballon.png" alt="">
+              <p class="my-2" data-i18n="AdditionalAmount">Additional mileage fee is 20 dirhams for every 21 kilometres
+              </p>
+            </div>
+            <form>
+              <div class="d-flex align-items-baseline justify-content-center">
+                <div>
+                  <img src="assets/images/i-icom-serq.png" alt="" class="w-40">
+                </div>
+                <p data-i18n="insuranceText" class="color-main">The insurance fee will be refunded one month after
+                  receiving
+                  the car</p>
+              </div>
+              <div class="online-booking-next mt-3">
+                <button class="btn" data-i18n="understand">understand</button>
+              </div>
+
+            </form>
+
+
+
+
+          </div>
+        </div>
+
+
+
+      </div>
+    </div>
+  </div>
+  <!--../ Additional mileage -->
+
+  <!-- bootstrap js cdns -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <!-- jquery js cdns -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
+    integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!-- jsdelivr -->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <!-- ../ jsdelivr-->
+  <!-- owl.carousel js scripts -->
+  <script src="assets/js/owl.carousel.min.js"></script>
+  <script src="assets/js/wow.min.js"></script>
+
+  <!-- WOW init -->
+  <script>
+    new WOW().init();
+
+  </script>
+
+  <!--custom js  -->
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/trans.js"></script>
+
+</body>
+
+</html>

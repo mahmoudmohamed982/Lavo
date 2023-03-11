@@ -1,0 +1,588 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --main-color: #bb3d30;
+  --bg-color:#2b4f66;
+  --white-color: white;
+  --black:#000;
+  --headers-color: #2b4f66;
+  --text-color: #4c4c4c;
+  --light-bg: #eef7f6;
+}
+
+body {
+  text-transform: capitalize;
+  font-family: "Poppins", sans-serif;
+}
+
+/* general tags styles */
+table, th, td {
+  padding:2px;
+ }
+img {
+  max-width: 100%;
+}
+select {
+  border: none;
+  outline: none;
+}
+ul {
+  margin-bottom: 0;
+}
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+a:focus {
+  outline: 0;
+}
+
+i {
+  cursor: pointer;
+}
+.active {
+  color: var(--white-color) !important  ;
+}
+.whats-btn {
+  background-color: var(--white-color) !important;
+  color: #4caf50 !important;
+  border: none !important;
+  padding: 10px 45px;
+}
+.whats-btn:hover {
+  color: var(--white-color) !important;
+  background-color: #4caf50 !important;
+}
+.bg-light {
+  background-color: var(--white-color) !important;
+}
+.w-40{
+  width:40px;
+}
+.color-main{
+  color: var(--main-color);
+}
+.width-70-p{
+  width: 70%;
+  margin: 0 auto;
+}
+.general-height {
+  align-items: center;
+}
+
+.general-height h1 {
+  color: var(--black);
+  font-size: 2.5rem;
+  text-align: center;
+  padding: 20px 40px;
+  font-weight: 900;
+  position: relative;
+  line-height: 4rem;
+}
+.general-height h1 span {
+  color: var(--main-color);
+  border-bottom: 5px solid var(--main-color);
+}
+
+.landing-overlay{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+}
+/* ../general tags styles */
+
+/* =====sections styles==== */
+
+/*landing-page */
+.landing-page {
+  overflow: hidden;
+  position: relative;
+}
+.landing-container-fluid{
+  padding-right: var(--bs-gutter-x,0rem) !important;
+  padding-left: var(--bs-gutter-x,0rem) !important;
+}
+.layout {
+  background-image: url("../images/land-bg.png");
+  min-height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+
+}
+
+/* navbar */
+.navbar-expand-lg .navbar-nav {
+  margin: 0 auto !important;
+  justify-content: space-between;
+  min-width: 60%;                   
+}
+.navbar{
+  padding-top: 0 !important;  
+  background-color: black;
+}
+.navbar-brand img{
+  max-height: 100%;
+  max-width: 100%;
+}
+.whats-btn {
+  padding: 7px 30px;
+}
+
+.lang-select {
+  border: none;
+  margin: 0 10px;
+  background-color: inherit ;
+  color: var(--white-color);
+}
+.lang-select:hover{
+  color: var(--white-color);
+}
+.lang-select:focus {
+  border: none;
+  text-decoration: none;
+  outline: 0;
+}
+.lang-select option{
+color: black;
+}
+/* ../navbar */
+
+/*../landing-page */
+
+/* slogan */
+
+.slogan-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: 3;
+  width: 60%;
+}
+
+.slogan-content .text h1 {
+  color: var(--white-color);
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.slogan-content .text h1 span {
+color: var(--main-color);
+border-bottom: 5px solid var(--main-color);
+}
+.slogan-content .text p {
+  color: var(--white-color);
+  font-size: 14px;
+  opacity: 0.67;
+}
+
+.searh-header h5{
+  color: var(--main-color);
+}
+.searh-header p{
+  font-size: 14px;
+  opacity: 0.9;
+}
+.search-dropdown-toggle{
+  text-align:inherit !important;
+}
+.c-search-dropdown-toggle::after {
+  margin: 0 180px !important;
+
+}
+.b-search-dropdown-toggle::after {
+  margin: 0 140px !important;
+
+}
+
+
+.search-btn button{
+  width: 100%;
+  background-color: var(--main-color) ;
+  color: var(--white-color);
+
+}
+.search-btn button:hover{
+  color: var(--white-color);
+
+}
+.quick-reservation a{
+  color: var(--main-color);
+  font-size: 12px;
+}
+.quick-reservation img{
+ width: 20px;
+ height: 20px;
+}
+/* ../slogan */
+
+
+/* services-section-1 */
+.services-sec-1{
+  margin: 5rem 0;
+}
+.services-sec-1 .icon-img {
+  transition: 0.3s;
+  padding: 2.5rem 20px;
+  color: #ccc !important;
+}
+.services-sec-1 .icon-img img {
+  width: 70px !important;
+  margin-bottom: 5%;
+  transition:all 0.5s ease-in-out;
+}
+.services-sec-1 .icon-img h5 {
+  color: black;
+  font-size: 1.5rem;
+    transition:all 0.5s ease-in-out;
+
+}
+.services-sec-1 .icon-img:hover {
+background-color: var(--main-color);
+  transition:all 0.s ease-in-out;
+}
+.services-sec-1 .icon-img:hover h5 {
+ color: var(--white-color);
+ transition:all 0.2s ease-in-out;
+
+  }
+
+
+/*../ services-section-1 */
+
+.why-ask-lawyer {
+  margin-bottom: 200px;
+}
+
+.why-ask-lawyer .row {
+  background-color: #eff8f6;
+  border-radius: 5px;
+}
+.why-header {
+  font-size: 3rem;
+  color: var(--headers-color);
+  font-weight: bolder;
+}
+.why-ask-lawyer .why-icons {
+  background-color: var(--main-color);
+  padding: 30px 30px;
+  border-radius: 50%;
+  color: var(--white-color);
+}
+.Bullet-point{
+  font-size: 3rem;
+}
+.Bullet-services{
+  color: #ced6dc;
+}
+/* why ask lawyer */
+
+/* .. why ask lawyer */
+
+/*  */
+
+.works-head{
+  color: var(--headers-color);
+}
+
+.our-cars .card{
+  border-radius: 20px  20px 0 0 !important;
+  background-color: #f8f8f8;
+  position: relative;
+  cursor: pointer;
+}
+.car-img{
+  position: relative;
+}
+.our-cars .card .brand-icons{
+width: 90%;
+position: absolute;
+margin: 0 auto ;
+top:80%;
+left:5%;
+border-radius: 5px;
+}
+.our-cars .card .card-title{
+  font-size: 16px;
+}
+.our-cars .card .card-text{
+  font-size: 12px;
+  opacity: 0.8;
+}
+.features-icons .features-icons-container {
+  background-color: #f8f8f8;
+  padding: 2px;
+}
+.features-icons .features-icons-container img{
+  width: 20px;
+
+}
+.car-name{
+  position: absolute;
+  top:5%;
+  right: 5%;
+  color: var(--white-color);
+}
+.car-name-icon{
+  position: absolute;
+  top:5%;
+  left: 5%;
+  background-color: var(--white-color);
+  padding: 5px;
+  border-radius: 5px;
+}
+.booking-prices{
+  padding: 0 3px;
+}
+.booking-prices .col{
+  padding: 0 !important;
+}
+.booking-prices .booking-type{
+  opacity: 0.8;
+  font-size: 14px;
+ 
+}
+.booking-prices .prices{
+  color: var(--main-color);
+  padding: 0 5px;
+}
+.booking-prices .discount-prices {
+opacity: 0.7;
+}
+.price-value{
+  text-decoration: line-through;
+  }
+.dicov-btn .btn{
+  border-radius: 25px;
+}
+
+.more-btn{
+background-color: var(--main-color);
+color: var(--white-color);
+padding: 5px 100px;
+}
+.more-btn:hover{
+  color: var(--white-color);
+  }
+/* footer */
+
+
+footer{
+  background-color: #323232;
+  padding-top:13rem  ;
+  margin-top: 40rem;
+  position: relative;
+}
+.video-head{
+  color: var(--white-color);
+}
+.video-head h3 span{
+  color: #323232;+
+  border-bottom: 5px solid #323232;
+}
+.footer-video {
+  background-color: var(--main-color);
+  padding: 25px;
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 15px;
+  padding-top: 50px;
+  position: absolute;
+bottom:70% ;
+  left: 15%;
+}
+
+.footer-video .video{
+  position: relative;
+  max-width: 950px;
+}
+.footer-video .video video{
+  width: 90%;
+  border-radius: 20px;
+  margin-top: 25px;
+}
+.play-pause-btn{
+  background-color: var(--main-color);
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border-radius: 50%;
+  width: 100px;
+  padding: 25px;
+  font-size: 2rem;
+  cursor: pointer;
+  text-align: center;
+}
+
+/* ads */
+.ads .container{
+  background-color: #ccc;
+  position: relative;
+  z-index: -1;
+  border-radius: 15px;
+
+}
+.ads-img{
+  height: 50vh;
+  /* background-image: url(../images/Questions-cuate.png); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 2;
+  width: 100%;
+  border-radius: 15px;
+}
+
+/* --/ads */
+/* rent-req */
+.bg-gray{
+  background-color: #f8f8f8;
+  padding: 50px 0;
+  border-radius: 10px;
+}
+.bg-gray:hover{
+  background-color: var(--main-color);
+  color: var(--white-color);
+}
+.man-img{
+  width: 100px;
+}
+.req-detail{
+  display: flex!important;
+    justify-content: center;
+    align-items: center;
+}
+.man-img-sm{
+  width: 50px;
+  margin:  5px;
+}
+/* rent-req */
+/* brands */
+.brand-item{
+height: 200px;
+background-image: url(../images/kia.jpg);
+background-repeat: no-repeat;
+background-size: contain;
+background-position: center;
+}
+/*  */
+.footer-nav{
+  background-color: inherit;
+}
+
+.terms-ques .terms a{
+ font-size: 14px;
+ color: whitesmoke;
+ text-decoration: underline;
+}
+.copyright{
+background-color: var(--main-color);
+color: var(--white-color);
+}
+/*../ end footer */
+
+/*all media query */
+@media (max-width: 1119px) {
+
+  .navbar-nav {
+    text-align: center;
+  }
+  .whats-btn {
+    padding: 7px 10px;
+}
+  .slogan-header {
+    text-align: center;
+  }
+  .slogan-content .text h2 {
+    margin: 0 auto;
+  }
+
+  .general-height h1 {
+    font-size: 20px !important;
+    line-height: 2.5rem;
+    padding: 18px 40px;
+}
+  .slogan-content {
+    min-width: 90%;
+  }
+  .slogan-content .text h1 {
+    font-size: 25px;
+    font-weight: 300;
+  }
+  
+  .slogan-content .text p {
+    font-size: 12px;
+    margin: 40px 0 !important;
+  }
+  .btn-start {
+    font-size: small;
+  }
+  .c-search-dropdown-toggle::after {
+    margin: 0 90px !important;
+  
+  }
+  .b-search-dropdown-toggle::after {
+    margin: 0 90px !important;
+  
+  }
+  
+  .contact-ways {
+    margin: 2rem 0;
+    padding: 13rem 2rem;
+
+}
+.slogan-content {
+  top: 50% !important;
+}
+
+footer {
+  margin-top: 15rem;
+
+}
+.play-pause-btn{
+display: none;
+}
+.width-70-p{
+  width: 90%;
+}
+}
+
+@media (min-width: 768px) and (max-width: 1199.98px) {
+
+  .general-height h1 {
+    font-size: 30px;
+    padding: 20px 40px;
+    font-weight: 700;
+    line-height: 3rem;
+  }
+  .navbar-nav {
+    text-align: center;
+  }
+  .c-search-dropdown-toggle::after {
+    margin: 0px 60px !important;
+}
+.b-search-dropdown-toggle::after {
+  margin: 0 60px !important;
+}
+  .search {
+    padding: 3rem 0 !important;
+  }
+  footer {
+    margin-top: 25rem;
+}
+}

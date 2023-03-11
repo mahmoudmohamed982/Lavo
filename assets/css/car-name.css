@@ -1,0 +1,329 @@
+
+.modal-dialog {
+  max-width: 900px;
+  margin: 1.75rem auto;
+}
+.all-cars-imgs-overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 5;
+}
+
+.all-cars-imgs-overlay span {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 1.2rem;
+}
+.cursor{
+  cursor: pointer;
+}
+.w-50 {
+  width: 48%!important;
+}
+
+.d-none{
+  display: none;
+}
+.d-block{
+  display:block ;
+}
+
+.branch-breadcrumb {
+  height: 10vh;
+  width: 100%;
+  position: relative;
+}
+.branch-breadcrumb nav {
+  z-index: 5;
+  color: var(--black) !important;
+  position: absolute;
+  top: 40%;
+}
+.branch-breadcrumb nav p {
+  font-size: 1.1rem;
+}
+.breadcrumb-item.active {
+  color: var(--black) !important;
+  opacity: 0.7;
+}
+.breadcrumb-item + .breadcrumb-item::before {
+  color: transparent;
+}
+.car-det-item {
+  padding: 1.8rem;
+}
+.specifications {
+  background-color: #ccc;
+  border-radius: 5px;
+}
+.specifications img {
+  opacity: 0.7;
+}
+.rent-item-head {
+  opacity: 0.7;
+}
+.rent-item-btn {
+  padding: 0 10px;
+}
+.rent-item-btn .btn {
+  width: 100%;
+  color: var(--white-color);
+  background-color: var(--main-color);
+}
+.card-desc span {
+  font-size: 13px;
+  color: var(--main-color);
+}
+.terms-priv {
+  border-radius: 15px;
+}
+.cart-link a {
+  font-size: 12px;
+  color: var(--black) !important;
+  text-decoration: underline;
+}
+
+.active-terms-link {
+  color: var(--main-color);
+  border-bottom: 3px solid var(--main-color);
+
+}
+
+.agree-btn .btn{
+  background-color: var(--main-color);
+    color: var(--white-color);
+    width: 25%;
+}
+
+
+.online-booking-money-icon img{
+  width: 80px;
+}
+.citizen-item img,.Tourist-item img{
+  width: 200px;
+}
+.online-booking-next .btn{
+  background-color: var(--main-color);
+  color: var(--white-color);
+  width: 100%;
+  padding: 10px;
+}
+.booking-whats{
+  background-color: #4caf50;
+  color: var(--white-color);
+  padding: 10px;
+}
+.booking-whats:hover{
+color: var(--white-color);
+}
+.note-icon {
+  color: var(--main-color);
+  background-color: var(--white-color);
+}
+.card-text{
+  min-height: 100px;
+}
+.booking-prices .booking-type {
+    opacity: 0.9;
+    font-size: 20px;
+}
+
+.dicov-btn .btn {
+    border-radius: 5px;
+}
+.all-cars-imgs{
+  cursor: pointer;
+}
+
+
+/* uplaod img form */
+
+
+.custom-form-group{
+  position: relative;
+  right: 0;
+  bottom: 0;
+}
+.file-upload {
+  position: relative;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+.btn-upload {
+  width: 100%;
+  height: 45px;
+  color: #6c7293;
+  background: #f8f8f8;
+  font-size: 12px;
+  font-weight: normal;
+  border: 1px solid #799fc0;
+  outline: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between !important; 
+  align-items: center;
+  justify-content: left;
+  padding: 0px 30px 0 0;
+
+  overflow: hidden;
+}
+
+/*---==>Button Icon-==>*/
+.i-pic-upload {
+  position: absolute;
+  color: #ccc;
+  background: #ebebeb;
+  background-size: cover !important;
+  font-size: 25px;
+  border-top: 1px solid #799fc0;
+  border-right: 1px solid #799fc0;
+  outline: none;
+  padding: 6.4px 9px;
+  top: 0;
+  right: 0;
+  width: 47px;
+  height: 44px;
+  border-radius: 0px 3px 3px 0px;
+}
+.i-deselect{
+  color: red;
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: none;
+}
+.i-deselect::before {
+  font-family: 'fontawesome';
+  content: '\f057';
+  position: absolute;
+  top: 1px;
+  right: -14px;
+  font-style: normal;
+  font-weight: normal;
+  text-align: start;
+  font-size: 12px;
+  cursor: pointer;
+}
+/*---==>Browse Text-==>*/
+.text-browse {
+  background: #ebebeb;
+  padding: 15px;
+  border-radius: 2px;
+  font-size: 12px;
+  margin-right: 5px;
+  border-radius:5px;
+}
+
+.btn-upload:active {
+  border-bottom-width: 2px;
+  outline: none;
+}
+.text-browse:hover {
+  background: #e0e0e0;
+  color: #78838d;
+}
+.btn-upload:active .text-browse {
+  background: #e0e0e0;
+  color: #78838d;
+  padding-left: 6px;
+}
+.btn-upload:active + .i-pic-upload {
+  padding: 8.5px 8px;
+}
+
+.text-file-name {
+  max-width: 220px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  padding: 0;
+  text-align: left;
+  font-size: 14px;
+  margin: 0 30px;
+}
+
+
+
+
+/*    ===========qestions page============= */
+
+.accordion-button::after {
+  margin-left: 0 !important;
+  margin-right: auto;
+}
+
+.accordion-button:not(.collapsed) {
+  color: var(--white-color) !important;
+  background-color: var(--main-color) !important;
+}
+
+footer {
+  padding-top: 2rem !important;
+  margin-top: 15rem !important;
+}
+
+/* ************** search page======= */
+.layout {
+  min-height: 50vh;
+}
+.search-type-item {
+  cursor: pointer;
+  background-color: #f8f8f8;
+  opacity: 0.9;
+}
+.menu-view,
+.list-view {
+  cursor: pointer;
+  padding: 10px 0;
+}
+.menu-view-active {
+  background-color: black;
+}
+.list-view-active {
+  background-color: var(--main-color);
+}
+
+@media (max-width: 1119px) {
+  .search-head-title {
+    width: 100%;
+    text-align: center;
+  }
+  .search-head-btns {
+    width: 100%;
+    justify-content: center;
+  }
+  .search {
+    padding: 0.5rem 0 !important;
+    margin-top: 35px;
+}
+.c-search-dropdown-toggle::after {
+  margin: 0px 160px !important;
+}
+.b-search-dropdown-toggle::after {
+margin: 0 160px !important;
+}
+.lan-car-item {
+  text-align: center;
+}
+.agree-btn .btn {
+  width: 100%;
+}
+.btn-upload {
+  height: 35px;
+}
+
+/*---==>Button Icon-==>*/
+.i-pic-upload {
+  width: 47px;
+  height: 33px;
+}
+}
